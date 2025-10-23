@@ -20,7 +20,12 @@ margin: 10px;
 padding: 20px 10px;
 background: white; 
 border-radius: 25px;
-} 
+}  
+
+.projects h2 {
+    width: 100%; /* Makes the heading take full width */
+    text-align: center; /* Centers the text */
+}
 
 .project img {
     width: 100%; /* Makes image fit container width */
