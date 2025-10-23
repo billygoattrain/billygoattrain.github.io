@@ -20,4 +20,20 @@ margin: 10px;
 padding: 20px 10px;
 background: white; 
 border-radius: 25%;
+} 
+
+.project img {
+    width: 100%; /* Makes image fit container width */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes extra space below image */
+    border-radius: 10px; /* Optional: rounds image corners */
+}
+
+.project h3 {
+    margin-top: 0; /* Removes extra space at top */
+}
+
+.project p {
+    word-wrap: break-word; /* Prevents text overflow */
+    overflow-wrap: break-word; /* Alternative for better browser support */
 }
