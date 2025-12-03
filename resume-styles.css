@@ -1,0 +1,61 @@
+/* Body styling */
+body {
+    background: #B900F5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main resume box */
+.resume-container {
+    background: white;
+    width: 80%;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/* Headings */
+h1 {
+    color: #B900F5;
+    text-align: center;
+}
+
+h2 {
+    color: #B900F5;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Horizontal lines */
+hr {
+    border: 1px solid #3DF500;
+    margin: 30px 0;
+}
+
+/* Links */
+a {
+    color: #B900F5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #3DF500;
+}
+
+/* Center text class */
+.center {
+    text-align: center;
+}
+
+/* Lists */
+ul {
+    line-height: 1.6;
+}
+
+li {
+    margin-bottom: 8px;
+}

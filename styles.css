@@ -1,44 +1,52 @@
+/* Page background and font */
 body {
     background: #B900F5;
-    font-family: Arial, Helvetica, sans-serif; 
-} 
-
-h1{
-
-    color: #3DF500;
-    text-align:center;
-
-} 
-
-.projects { 
-    display:flex; 
-    flex-wrap:wrap; 
+    font-family: Arial, Helvetica, sans-serif;
 }
-.project {
-width: 30%;
-margin: 10px;
-padding: 20px 10px;
-background: white; 
-border-radius: 25px;
-}  
+
+/* Main heading */
+h1 {
+    color: #3DF500;
+    text-align: center;
+}
+
+/* Resume section */
+.resume {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+/* Projects section */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .projects h2 {
-    width: 100%; /* Makes the heading take full width */
-    text-align: center; /* Centers the text */
+    width: 100%;
+    text-align: center;
+}
+
+.project {
+    width: 30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: white;
+    border-radius: 25px;
 }
 
 .project img {
-    width: 100%; /* Makes image fit container width */
-    height: auto; /* Maintains aspect ratio */
-    display: block; /* Removes extra space below image */
-    border-radius: 10px; /* Optional: rounds image corners */
+    width: 100%;
+    border-radius: 10px;
 }
 
 .project h3 {
-    margin-top: 0; /* Removes extra space at top */
+    margin-top: 0;
 }
 
 .project p {
-    word-wrap: break-word; /* Prevents text overflow */
-    overflow-wrap: break-word; /* Alternative for better browser support */
+    word-wrap: break-word;
 }
