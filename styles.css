@@ -12,7 +12,7 @@ h1 {
 
 /* Resume section */
 .resume {
-    background: white;
+    background: #3DF500;
     padding: 20px;
     margin: 20px;
     border-radius: 25px;
@@ -34,7 +34,7 @@ h1 {
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
-    background: white;
+    background:  #3DF500;
     border-radius: 25px;
 }
 
